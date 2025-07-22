@@ -16,11 +16,12 @@ Breakdown:
         Inheritance
             Intro  -- Done [22/7/25]
             Multiple inheritance  -- Done [22/7/25]
-            Composition vs inheritance
+            Composition vs inheritance -- Done [22/7/25]
             Method resolution orders  -- Done [22/7/25]
             Abstract classes  -- Done [22/7/25]
         Encapsulation
-        Polymorphism
+        Polymorphism   -- Done [22/7/25]
+        Abstraction
         
     Design Patterns
         SOLID Principle

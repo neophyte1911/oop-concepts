@@ -128,6 +128,10 @@ class Person:
         age = current_year - birth_year
         return cls(name, age)
     
+    @classmethod
+    def get_class_age(cls):
+        return cls.species
+    
     '''
     
     No self or cls.
@@ -197,8 +201,7 @@ with Person("Bob", 25) as p:
 alice.set_name("Alicia")  
 print(alice.get_name())  # >> Alicia
 
-alice.set_age(31)        
-print(alice.get_age())   # >> 31
+print(Person.get_class_age())
 
 # —————————————————————————————————————————————————————
 # 7. @property Accessors (cleaner syntax)
@@ -211,10 +214,3 @@ print(alice.name)        # calls @property name
 # —————————————————————————————————————————————————————
 print(Person.is_valid_name("Eve"))    # >> True  
 print(Person.is_valid_name("Eve123")) # >> False  
-
-# —————————————————————————————————————————————————————
-# 9. Hashing (so instances can live in sets or dicts)
-# —————————————————————————————————————————————————————
-people_set = {alice, bob}
-print(alice in people_set)  # >> True  
-# __hash__ is based on (name, age)

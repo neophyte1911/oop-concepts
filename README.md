@@ -7,8 +7,8 @@ Repo Description:
 Breakdown:
     OOP Concepts:
         Classes
-        Instances, methods and attributes
         Class attributes, init constructor
+        Instances, methods and attributes
         Inheritance
         Encapsulation
         Polymorphism

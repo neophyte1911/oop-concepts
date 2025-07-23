@@ -19,8 +19,8 @@ Breakdown:
             Composition vs inheritance -- Done [22/7/25]
             Method resolution orders  -- Done [22/7/25]
             Abstract classes  -- Done [22/7/25]
-        Encapsulation
         Polymorphism   -- Done [22/7/25]
+        Encapsulation
         Abstraction
         
     Design Patterns

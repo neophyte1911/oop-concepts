@@ -6,6 +6,8 @@ provide a way to enforce certain methods in subclasses.
 Use the abc module to create ABCs and define abstract
 methods using the @abstractmethod decorator.
 
+ABC == interfaces in java
+
 '''
 
 

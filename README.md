@@ -20,8 +20,8 @@ Breakdown:
             Method resolution orders  -- Done [22/7/25]
             Abstract classes  -- Done [22/7/25]
         Polymorphism   -- Done [22/7/25]
-        Encapsulation
-        Abstraction
+        Encapsulation  -- Done [23/7/25]
+        Abstraction  -- Done [23/7/25]
         
     Design Patterns
         SOLID Principle
